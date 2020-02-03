@@ -85,6 +85,7 @@ describe( "submitData()", () => {
     let email = "jim@jim.com"
 
     await submitData( name, email )
+    
     expect( document.body.innerHTML )
       .to.include( message )
   } )
